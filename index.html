@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sprint 01 - Codificador</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js"></script>
+    </head>
+    <body>
+
+        <main>
+
+            <section id="colLogo">
+                <a href="/">
+                    <img src="images/Logo.png" alt="Logo">
+                </a>
+            </section>
+
+            <section id="colTexto">
+                <textarea id="texto" autofocus placeholder="Ingrese aqui el texto"></textarea>
+                <label for="texto">
+                    <i onclick="phyrexia()">!</i> Solo letras minúsculas y sin acentos
+                </label>
+                <div class="botones">
+                    <span onclick="encriptar()">Encriptar</span>
+                    <span onclick="desencriptar()" class="alt">Desencriptar</span>
+                </div>
+            </section>
+
+            <section id="colMensaje">
+                <div id="sinMensaje">
+                    <img class="muneco" src="images/Muneco.png" alt="Muneco">
+                    <p class="destacado">Ningun mensaje fue encontrado</p>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <div id="conMensaje">
+                    <textarea id="mensaje"></textarea>
+                    <div class="botones">
+                        <span class="copiar" class="alt" onclick="copiar()">Copiar</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            &copy 2023 - <a href="https://www.linkedin.com/in/hagowebs/">Emilio González</a>
+        </footer>
+
+    </body>
+</html>
