@@ -1,174 +1,175 @@
 /* Importar fuente */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 /* Estilos generales */
-body, textarea {
-    background: #E5E5E5;
-    border: none;
-    color: #0A3871;
-    font-family: 'Inter';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+body,
+textarea {
+  background: #e5e5e5;
+  border: none;
+  color: #0a3871;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 main {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1360px;
-    padding: 40px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1360px;
+  padding: 40px;
 }
 textarea {
-    resize: none;
+  resize: none;
 }
 footer {
-    color: #495057;
-    font-size: 12px;
-    margin: 0 auto;
-    max-width: 1360px;
-    text-align: center;
+  color: #495057;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 1360px;
+  text-align: center;
 }
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* Estilos de botones */
 .botones {
-    display: flex;
+  display: flex;
 }
 .botones span {
-    background: #0A3871;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #FFFFFF;
-    display: block;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 24px;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
+  background: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
 }
 .botones span:hover {
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    color: #0A3871;
-    cursor: pointer;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  cursor: pointer;
 }
 .botones .alt {
-    background: transparent;
-    border: 1px solid #0A3871;
-    color: #0A3871;
+  background: transparent;
+  border: 1px solid #0a3871;
+  color: #0a3871;
 }
 /* Columna de logotipo */
 #colLogo {
-    width: 80px;
+  width: 80px;
 }
 /* Columna de texto */
 #colTexto {
-    padding-top: 128px;
-    padding-right: 120px; 
-    padding-left: 120px;
-    width: 800px;
+  padding-top: 128px;
+  padding-right: 120px;
+  padding-left: 120px;
+  width: 800px;
 }
 /* Cuadro de texto */
 #texto {
-    height: 293px;
-    outline: none;
-    width: 100%;
+  height: 293px;
+  outline: none;
+  width: 100%;
 }
 /* Etiqueta de aviso */
 #colTexto label {
-    color: #495057;
-    display: block;
-    font-size: 12px;
+  color: #495057;
+  display: block;
+  font-size: 12px;
 }
 #colTexto label i {
-    background: #495057;
-    border-radius: 50%;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-style: normal;
-    margin-right: 8px;
-    margin-bottom: 16px;
-    padding: 4px 10px;
+  background: #495057;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  padding: 4px 10px;
 }
 /* Separacion de botones */
 #colTexto span:first-of-type {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 /* Columna de mensaje */
 #colMensaje {
-    background: #FFFFFF;
-    border-radius: 32px;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    color: #495057;
-    font-size: 16px;
-    line-height: 24px;
-    height: 515px;
-    padding: 32px;
-    width: 400px;
+  background: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  color: #495057;
+  font-size: 16px;
+  line-height: 24px;
+  height: 515px;
+  padding: 32px;
+  width: 400px;
 }
 /* Imagen responsiva */
 #colMensaje .muneco {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 /* Mensaje destacado */
 #colMensaje .destacado {
-    font-weight: 700;
-    font-size: 24px;
-    color: #343A40;
-    line-height: 120%;
-    margin-top: 32px;
-    margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #343a40;
+  line-height: 120%;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 /* Espacio sin mensaje */
 #sinMensaje {
-    display: block;
-    padding: 50px 0;
-    text-align: center;
+  display: block;
+  padding: 50px 0;
+  text-align: center;
 }
 /* Espacio con mensaje */
 #conMensaje {
-    display: none;
+  display: none;
 }
 /* Mensaje (des)encriptado */
 #mensaje {
-    background: #FFFFFF;
-    color: #495057;
-    font-size: 24px;
-    line-height: 36px;
-    height: 445px;
-    outline: none;
-    width: 100%;
+  background: #ffffff;
+  color: #495057;
+  font-size: 24px;
+  line-height: 36px;
+  height: 445px;
+  outline: none;
+  width: 100%;
 }
 /* Estilos en celular */
 @media screen and (max-width: 900px) {
-    * {
-        box-sizing: border-box;
-    }    
-    main {
-        flex-direction: column;
-        padding: 15px;
-    }
-    #colLogo {
-        width: 100%;
-    }
-    #colTexto {
-        padding-top: 40px;
-        padding-right: 0; 
-        padding-left: 0;
-        width: 100%;
-    }
-    .botones {
-        margin-bottom: 40px;
-    }
-    #colMensaje {
-        width: 100%;
-    }
-    #sinMensaje {
-        padding: 10px 0;
-    }
-    #mensaje {
-        height: 375px;
-    }
+  * {
+    box-sizing: border-box;
+  }
+  main {
+    flex-direction: column;
+    padding: 15px;
+  }
+  #colLogo {
+    width: 100%;
+  }
+  #colTexto {
+    padding-top: 40px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .botones {
+    margin-bottom: 40px;
+  }
+  #colMensaje {
+    width: 100%;
+  }
+  #sinMensaje {
+    padding: 10px 0;
+  }
+  #mensaje {
+    height: 375px;
+  }
 }
