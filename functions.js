@@ -5,11 +5,11 @@ function verificar() {
   var verificar = texto.value;
   // paso 2: comprobar si el valor es distinto a vacio
   if (verificar != "") {
-    // paso 3: ocultar div sin mensaje y mostrar div con mensaje
+    // paso 3: ocultar div sinMensaje y mostrar div conMensaje
     document.querySelector("#sinMensaje").style.display = "none";
     document.querySelector("#conMensaje").style.display = "block";
   } else {
-    // paso 4: mostrar div sin mensaje y ocultar div con mensaje
+    // paso 4: mostrar div sinMensaje y ocultar div conMensaje
     document.querySelector("#sinMensaje").style.display = "block";
     document.querySelector("#conMensaje").style.display = "none";
   }
@@ -20,7 +20,7 @@ function filtrar() {
   var filtrar = texto.value;
   // paso 2: convertir a minusculas
   filtrar = filtrar.toLowerCase();
-  // paso 2: quitar acentos
+  // paso 3: quitar acentos
   var llaves = [/í/g, /é/g, /á/g, /ó/g, /ú/g];
   var letras = ["i", "e", "a", "o", "u"];
   for (var i = 0; i < llaves.length; i++) {
@@ -36,7 +36,7 @@ function encriptar() {
   verificar();
   // paso 2: filtrar texto
   filtrar();
-  // paso 3: encriptar texto (uno a uno)
+  // paso 3: encriptar texto (metodo: uno a uno)
   var encriptar = texto.value;
   encriptar = encriptar.replace(/e/g, "enter");
   encriptar = encriptar.replace(/i/g, "imes");
@@ -52,7 +52,7 @@ function desencriptar() {
   verificar();
   // paso 2: filtrar texto
   filtrar();
-  // paso 3: desencriptar texto (con array y for)
+  // paso 3: desencriptar texto (metodo: array y for)
   var desencriptar = texto.value;
   var llaves = [/imes/g, /enter/g, /ai/g, /ober/g, /ufat/g];
   var letras = ["i", "e", "a", "o", "u"];
